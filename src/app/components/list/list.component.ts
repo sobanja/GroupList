@@ -11,6 +11,8 @@ import {MatIconModule} from '@angular/material/icon';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
- @Input() listTitle: string = "";
- @Input() listDescription: string = "";
+  @Input()
+  listTitle: string = '';
+  @Input()
+  listDescription: string = '';
 }

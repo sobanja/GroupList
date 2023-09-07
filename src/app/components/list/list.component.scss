@@ -1,13 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  width: 190px;
+  margin-right: -40px;
+}
 
 mat-icon {
   font-size: 24px; 
-  margin: 8px 9px 7px 20px;
+  margin: 8px 2px 7px 30px;
+  
 }
 .text-container {
+  font-size: 14px; 
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin: 0 20px 0 20px;
+  text-align: left;
+  margin: 0 10px 0 10px;
 }
 
 
