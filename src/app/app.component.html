@@ -1,31 +1,9 @@
-<app-wrapper>
-  <ng-container *ngFor="let item of items">
-    <app-list [listTitle]="item.title || ''" [listDescription]="item.description || ''">
-    </app-list>
-  </ng-container>
-  <app-users [nicknames] = "['MR', 'AL', 'GP', 'DZ', '+5']" ></app-users>
-</app-wrapper>
-<app-wrapper>
-  <ng-container *ngFor="let item of items">
-    <app-list [listTitle]="item.title || ''" [listDescription]="item.description || ''">
-    </app-list>
-  </ng-container>
-  <app-users [nicknames] = "['AL', 'GP', 'DZ', '5+']" ></app-users>
-</app-wrapper>
-<app-wrapper>
-  <ng-container *ngFor="let item of items">
-    <app-list [listTitle]="item.title || ''" [listDescription]="item.description || ''">
-    </app-list>
-  </ng-container>
-  <app-users [nicknames] = "['AL', 'GP', 'DZ', '5+']" ></app-users>
-</app-wrapper>
-<app-wrapper>
-  <ng-container *ngFor="let item of items">
-    <app-list [listTitle]="item.title || ''" [listDescription]="item.description || ''">
-    </app-list>
-  </ng-container>
-  <app-users [nicknames] = "['AL', 'GP', 'DZ', '5+']" ></app-users>
-</app-wrapper>
+<app-list [title]= "title" [description]="description"></app-list>
+<app-user [nickname] = "name"></app-user>
+<app-users-list [nicknames]="users"></app-users-list>
+
+
+<!-- <app-users [nicknames] = "['MR', 'AL', 'GP', 'DZ', '+5']" ></app-users> -->
 
 
 

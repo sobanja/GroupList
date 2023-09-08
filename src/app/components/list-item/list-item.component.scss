@@ -1,0 +1,37 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+  height: 120px;
+  width: 400px;
+  margin: 85px;
+  border-radius: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0 0 12px;
+}
+  mat-icon {
+    font-size: 24px;
+    margin: 20px 0 0 25px ;
+    color: rgb(62, 93, 197);
+    border: 2px solid rgb(48, 92, 185); 
+    border-radius: 50%; 
+    padding: 5px;
+    display: inline-flex; /* Чтобы рамка обернула иконку */
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Выравнивание по горизонтали */
+  }
+  
+  .title {
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .description {
+    color: rgb(133, 131, 131);
+  }
+

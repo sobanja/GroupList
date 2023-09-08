@@ -7,12 +7,10 @@ import {MatIconModule} from '@angular/material/icon';
   selector: 'app-list',
   standalone: true,
   imports: [CommonModule, MatIconModule],
-  templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+  templateUrl: './list-item.component.html',
+  styleUrls: ['./list-item.component.scss']
 })
 export class ListComponent {
-  @Input()
-  listTitle: string = '';
-  @Input()
-  listDescription: string = '';
+  @Input() title: string = '';
+  @Input() description: string = '';
 }
