@@ -17,7 +17,6 @@ import { UsersListComponent } from './components/users-list/users-list.component
 export class AppComponent {
  title = "Bonifico Italia";
  description = "10 € - 1500 €";
- name = "AL";
- users = ['AL', 'GP', 'DZ'];
+ users = ['AL', 'GP', 'DZ', 'BJ', 'DD'];
 
 }

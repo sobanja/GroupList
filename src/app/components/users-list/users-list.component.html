@@ -1,2 +1,2 @@
-<ng-container *ngFor="let name of users">
+<app-user *ngFor="let nick of nicknames | userSlicer" [nickname]="nick"></app-user>
 
