@@ -1,0 +1,79 @@
+.warning-wrap {
+  background-color: rgb(250, 249, 249);
+  border-radius: 15px;
+  height: 140px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0 0 12px;
+  font-size: 15px;
+}
+
+.menu-text {
+ color: rgb(0, 0, 0);
+ margin-left: 20px;
+}
+
+.menu-btn {
+  margin-right: 20px;
+  Align-self: center;
+  color: rgb(0, 0, 0);
+}
+
+.warning-icon {
+  color: goldenrod;
+  margin: 10px 0 10px 20px;
+  font-size: 20px;
+}
+
+.field {
+  font-size: 17px;
+  font-weight: 550;
+  margin: 0 5px 5px 0;
+}
+
+.message {
+  color: rgb(151, 149, 149);
+}
+
+.credit-icon-color {
+  font-size: 24px;
+  margin: 20px 0 0 25px ;
+  color: rgb(173, 173, 173);
+  border: 2px solid rgb(155, 155, 155); 
+  border-radius: 50%; 
+  padding: 5px;
+  display: inline-flex; /* Чтобы рамка обернула иконку */
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 0 0 12px;
+}
+
+.item {
+  display: flex; /* Устанавливаем контейнер в режим flex */
+  align-items: center; /* Выравниваем элементы по вертикали по центру */
+  justify-content: flex-start; /* Выравниваем элементы по горизонтали слева */
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.description {
+  color: rgb(133, 131, 131);
+}

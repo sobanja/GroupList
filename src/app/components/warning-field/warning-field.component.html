@@ -1,0 +1,32 @@
+<div class="warning-wrap">
+  <div class="group">
+    <mat-icon class="warning-icon">warning</mat-icon>
+    <div class="text-field">
+      <span class="field">{{ field }}</span>
+      <span class="message">{{ message }}</span>
+    </div>
+    <button class="menu-btn" mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_horiz</mat-icon>
+    </button>
+  </div>
+
+  <div class="item">
+    <mat-icon class="credit-icon-color">credit_card</mat-icon>
+    <div class="text-container">
+      <span class="title">{{ title }}</span>
+      <span class="description">{{ description }}</span>
+    </div>
+  </div>
+
+  <mat-menu #menu="matMenu" class="test">
+    <span class="menu-text">Altro</span>
+    <button mat-menu-item>
+      <mat-icon>create</mat-icon>
+      <span>Modifica</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>delete_outline</mat-icon>
+      <span>Elemina</span>
+    </button>
+  </mat-menu>
+</div>
